@@ -1,0 +1,27 @@
+@use 'custom';
+    
+
+
+// Import the components
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Import the sections
+
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/about';
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/portfolio';
+@use 'sections/services';
+@use 'sections/get-started';
+
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
