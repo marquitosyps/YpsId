@@ -1,0 +1,53 @@
+@use '../custom' as *;
+@use  '../components/mixins' as *;
+
+.btn-semirounded {
+    position:relative;
+    padding: 1.2rem 1.6rem 1.2rem 1rem;
+    font-weight: 500;
+    margin: 0;
+    color: $white;
+    border: 1px color $orange;
+    border-color: $orange;
+    background-color: transparent;
+    transition: 0.5s;
+    
+    
+    
+
+    span{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        top:50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 20%;
+        transition: 1ms;
+
+        i{
+            color: $orange;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            
+           
+            
+        }
+
+    }
+
+    &:hover{
+        background-color: $orange;
+        i{
+            color: $white;
+            
+        }
+        span{
+           
+            border: 2px;
+            
+            
+        }
+        
+    }
+}
