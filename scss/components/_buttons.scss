@@ -51,3 +51,55 @@
         
     }
 }
+
+
+.btn-icons{
+    position:relative;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    margin: 0;
+    color: $secondary;
+    border: 1px color $secondary;
+    border-color: $secondary;
+    background-color: transparent;
+    transition: 0.5s;
+
+    span{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        top:50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 20%;
+        transition: 1ms;
+
+        i{
+            color: $orange;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            
+           
+            
+        }
+
+    }
+
+    &:hover{
+        background-color: $orange;
+        color: white;
+        border-color: white;
+        
+        i{
+            color: $white;
+            
+        }
+        span{
+           
+            border: 2px;
+            
+            
+        }
+        
+    }
+}
