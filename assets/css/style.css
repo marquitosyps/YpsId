@@ -12058,6 +12058,18 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.our-team {
+  padding: 0 0 6rem 0;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(33, 37, 41, 0.95));
+}
+.our-team .container {
+  height: auto;
+  padding: 1rem;
+  position: relative;
+}
+
 * {
   font-family: "Raleway", sans-serif;
 }
