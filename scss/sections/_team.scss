@@ -1,0 +1,16 @@
+@use  '../components/mixins' as *;
+
+
+.our-team {
+    padding: 0 0 6rem 0;
+    text-align: center;
+    color:  white;
+    @include gradient;
+    .container {
+           height: auto;
+           padding: 1rem;
+           position: relative;
+           
+    }
+        
+}
