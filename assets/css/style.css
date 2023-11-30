@@ -12043,6 +12043,28 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
+.container__newsletter {
+  height: 500px;
+  width: 100%;
+}
+.container__newsletter .newsletter {
+  margin-top: 1rem;
+  background: linear-gradient(to left, rgba(250, 50, 0, 0.85), #6f42c1);
+  color: white;
+}
+.container__newsletter .newsletter .form-control {
+  padding: 1rem;
+  background-color: transparent;
+}
+.container__newsletter .newsletter .form-control .form-check-label {
+  padding-block-end: 1rem;
+}
+
+.containerbutton {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .clients {
   padding: 0 0 6rem 0;
   text-align: center;
