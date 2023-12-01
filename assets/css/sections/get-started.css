@@ -11855,26 +11855,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container__newsletter {
-  height: 500px;
-  width: 100%;
-}
-.container__newsletter .newsletter {
-  margin-top: 1rem;
-  background: linear-gradient(to left, rgba(250, 50, 0, 0.85), #6f42c1);
-  color: white;
-}
-.container__newsletter .newsletter .form-control {
-  padding: 1rem;
-  background-color: transparent;
-}
-.container__newsletter .newsletter .form-control .form-check-label {
-  padding-block-end: 1rem;
+.get-started {
+  padding: 4rem 0;
+  background-color: #dee2e6;
+  position: relative;
 }
 
-.containerbutton {
-  display: flex;
-  justify-content: flex-end;
+.contact-box {
+  height: auto;
+  width: 100%;
+  color: white;
 }
 
 /*# sourceMappingURL=get-started.css.map */

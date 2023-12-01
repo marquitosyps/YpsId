@@ -11920,7 +11920,7 @@ textarea.form-control-lg {
   right: 5px;
   transform: translateY(-50%);
   border-radius: 20%;
-  transition: 1ms;
+  transition: 0.2ms;
 }
 .btn-icons span i {
   color: rgb(250, 50, 0);
@@ -11930,7 +11930,7 @@ textarea.form-control-lg {
 .btn-icons:hover {
   background-color: rgb(250, 50, 0);
   color: white;
-  border-color: white;
+  border-color: transparent;
 }
 .btn-icons:hover i {
   color: #fff;
@@ -11980,16 +11980,6 @@ textarea.form-control-lg {
   background-color: rgb(250, 50, 0);
 }
 
-.heading-line::after {
-  content: "";
-  width: 5rem;
-  padding-top: 0.2rem;
-  height: 0.2rem;
-  display: block;
-  margin: auto;
-  background-color: rgb(250, 50, 0);
-}
-
 .fa-brands {
   color: #000;
   font-size: 50px;
@@ -11997,6 +11987,10 @@ textarea.form-control-lg {
 }
 .fa-brands .fa-windows {
   margin-right: 1rem;
+}
+
+.gradient {
+  background: linear-gradient(to left, rgba(250, 50, 0, 0.85), #6f42c1);
 }
 
 .menu {
@@ -12043,26 +12037,16 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
-.container__newsletter {
-  height: 500px;
-  width: 100%;
-}
-.container__newsletter .newsletter {
-  margin-top: 1rem;
-  background: linear-gradient(to left, rgba(250, 50, 0, 0.85), #6f42c1);
-  color: white;
-}
-.container__newsletter .newsletter .form-control {
-  padding: 1rem;
-  background-color: transparent;
-}
-.container__newsletter .newsletter .form-control .form-check-label {
-  padding-block-end: 1rem;
+.get-started {
+  padding: 4rem 0;
+  background-color: #dee2e6;
+  position: relative;
 }
 
-.containerbutton {
-  display: flex;
-  justify-content: flex-end;
+.contact-box {
+  height: auto;
+  width: 100%;
+  color: white;
 }
 
 .clients {

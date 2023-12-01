@@ -44,15 +44,7 @@
     background-color: $secondary;
 }
 
-.heading-line::after{
-    content: "";
-    width: 5rem;
-    padding-top: 0.2rem;
-    height: 0.2rem;
-    display: block;
-    margin: auto;
-    background-color: $secondary;
-}
+
 
 .fa-brands{
     color: $black;
@@ -65,4 +57,10 @@
         margin-right: 1rem;
         
     }
+}
+
+// GRADIENT BACKGROUND
+
+.gradient{
+    background: linear-gradient(to left, rgba($secondary, 0.85), rgba($purple, 1.5));
 }

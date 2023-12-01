@@ -72,15 +72,12 @@
         right: 5px;
         transform: translateY(-50%);
         border-radius: 20%;
-        transition: 1ms;
+        transition: 0.2ms;
 
         i{
             color: $orange;
             font-size: 1.2rem;
             line-height: 2.2rem;
-            
-           
-            
         }
 
     }
@@ -88,7 +85,7 @@
     &:hover{
         background-color: $orange;
         color: white;
-        border-color: white;
+        border-color: transparent;
         
         i{
             color: $white;

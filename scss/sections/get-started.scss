@@ -2,34 +2,17 @@
 @use  '../components/mixins' as *;
 
 
-.container__newsletter{
-  height:  500px;
-    
-  width: 100%;
-  
 
-                  .newsletter{
-    margin-top: 1rem;
-    @include gradient-light;
+.get-started {
+    padding: 4rem 0;
+    background-color:  $gray-300;
+    position: relative;
+}
+
+.contact-box{
+    height: auto;
+    width: 100%;
     color: white;
-      
-                            .form-control{
-                 padding: 1rem;
-                 background-color: transparent;
-                 
-                                 .form-check-label{
-                       padding-block-end: 1rem;
-                   }
-                   
-   
-                   }
-   }
-   
-
-  
-}.containerbutton{
-    display: flex;
-justify-content: flex-end;
-
+    
 }
 
