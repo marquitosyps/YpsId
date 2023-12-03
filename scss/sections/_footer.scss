@@ -1,0 +1,100 @@
+@use '../custom' as *;
+@use  '../components/mixins' as *;
+
+
+.footer{
+    padding-top: 1rem;
+    background-color: $footer;
+
+}
+
+
+// STYLE CONTACT BOX CONTENT
+
+.contact-box {
+position: relative;
+text-align: center;
+
+
+&__icon {
+width: 3.5rem;
+stroke: $secondary;
+
+}
+
+&__info {
+    padding: 0.4rem;
+    font-weight: 600;
+    &--title {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+&--subtitle {
+        color: $gray-600;
+    }
+
+}
+
+}
+
+// ESTILOS DE REDES SOCIALES
+
+.footer-sm {
+
+
+    a {
+        color: $white;
+
+        i {
+            font-size: 1rem;
+            margin-left: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.6rem;
+            }
+        }
+
+        &:hover {
+            color: $secondary;
+            }
+    }
+
+}
+
+// ESTILO  PARA LA PARTE DE INFORMACION
+
+.footer-info{
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+    li{
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 300;
+
+        &:hover {
+            color: $secondary;
+        }
+        
+    }
+}
+
+
+// ESTILO PARA EL COPYRIGHT
+.footer-copyright {
+    background-color: $black;
+
+    &__info {
+        color: $gray-600;
+        font-weight: 500;
+
+        
+    }
+}
