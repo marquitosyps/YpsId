@@ -11920,7 +11920,7 @@ textarea.form-control-lg {
   right: 5px;
   transform: translateY(-50%);
   border-radius: 20%;
-  transition: 1ms;
+  transition: 0.2ms;
 }
 .btn-icons span i {
   color: rgb(250, 50, 0);
@@ -11930,7 +11930,7 @@ textarea.form-control-lg {
 .btn-icons:hover {
   background-color: rgb(250, 50, 0);
   color: white;
-  border-color: white;
+  border-color: transparent;
 }
 .btn-icons:hover i {
   color: #fff;
@@ -11980,16 +11980,6 @@ textarea.form-control-lg {
   background-color: rgb(250, 50, 0);
 }
 
-.heading-line::after {
-  content: "";
-  width: 5rem;
-  padding-top: 0.2rem;
-  height: 0.2rem;
-  display: block;
-  margin: auto;
-  background-color: rgb(250, 50, 0);
-}
-
 .fa-brands {
   color: #000;
   font-size: 50px;
@@ -11997,6 +11987,10 @@ textarea.form-control-lg {
 }
 .fa-brands .fa-windows {
   margin-right: 1rem;
+}
+
+.gradient {
+  background: linear-gradient(to left, rgba(250, 50, 0, 0.85), #6f42c1);
 }
 
 .menu {
@@ -12041,6 +12035,103 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.contact-box {
+  position: relative;
+  text-align: center;
+}
+.contact-box__icon {
+  width: 3.5rem;
+  stroke: rgb(250, 50, 0);
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.contact-box__info--subtitle {
+  color: #6c757d;
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+.footer-sm a:hover {
+  color: rgb(250, 50, 0);
+}
+
+.footer-info {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.footer-info li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footer-info a:hover {
+  color: rgb(250, 50, 0);
+}
+
+.footer-copyright {
+  background-color: #000;
+}
+.footer-copyright__info {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #dee2e6;
+  position: relative;
+}
+
+.contact-box {
+  height: auto;
+  width: 100%;
+  color: white;
+}
+
+.cta-info {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+}
+.cta-info__list li::before {
+  font-family: sans-serif;
+  content: "\f178";
+  padding: 1rem;
+  font-weight: 600;
 }
 
 .clients {
