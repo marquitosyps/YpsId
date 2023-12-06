@@ -12161,6 +12161,34 @@ textarea.form-control-lg {
   position: relative;
 }
 
+.card {
+  font-size: 1rem;
+}
+.card .card-body {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.card .card-icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 1rem;
+}
+.card .card-icons i {
+  color: #495057;
+}
+.card .card-text {
+  font-size: 14px;
+}
+
+.card:hover .card-icons {
+  color: rgb(250, 50, 0);
+}
+.card:hover .card-icons a i {
+  color: rgb(250, 50, 0);
+}
+
 * {
   font-family: "Raleway", sans-serif;
 }

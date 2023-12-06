@@ -1,5 +1,5 @@
 @use  '../components/mixins' as *;
-
+@use '../custom' as *;
 
 .our-team {
     padding: 0 0 6rem 0;
@@ -13,4 +13,48 @@
            
     }
         
+}
+
+
+// TEAM SECTION
+
+
+.card{
+    
+    font-size: 1rem;
+    .card-body{
+       font-size: 1rem;
+       font-weight: 500;
+       
+    }
+
+    .card-icons {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 1rem;
+        i {
+            color: $gray-700;
+        }
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+
+.card:hover{
+
+    .card-icons{
+        color:$secondary;
+
+       a {
+            i {
+                color: $secondary;
+            }
+        }
+    }
+
 }
